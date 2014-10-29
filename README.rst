@@ -11,7 +11,7 @@ Installation
 
 ::
 
-    pip install git+git://github.com/badele/gitcheck.git
+    pip install git+git://github.com/marshallmick007/gitcheck.git
 
 Examples utilizations
 ---------------------
@@ -24,7 +24,7 @@ modification not committed and or commits not pushed.
 
 .. code:: bash
 
-    >garchdeps.py
+    > gitcheck.py
 
 .. figure:: http://bruno.adele.im/static/gitcheck.png
    :alt: Gitcheck simple
@@ -39,7 +39,7 @@ files modified and commits not pushed
 
 .. code:: bash
 
-    >garchdeps.py -v 
+    > gitcheck.py -v 
 
 .. figure:: http://bruno.adele.im/static/gitcheck_verbose.png
    :alt: Gitcheck verbose
